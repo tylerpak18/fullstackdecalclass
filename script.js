@@ -43,7 +43,7 @@ const question2 = () => {
   addTodoButton.addEventListener("click", (event) => {
     const task = taskName.value;
 
-    if (task !== "") {
+    if (task.trim() !== "") {
       const newTodo = document.createElement("li");
 
       newTodo.textContent = task;
