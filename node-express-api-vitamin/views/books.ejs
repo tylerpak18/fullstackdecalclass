@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Book List</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        h1 { color: #333; }
+        ul { list-style-type: none; padding: 0; }
+        li { padding: 10px; margin: 5px 0; background-color: #f0f0f0; border-radius: 5px; }
+    </style>
+</head>
+<body>
+    <h1>My Book List</h1>
+    <ul>
+        <% books.forEach(book => { %>
+            <!-- TODO: Create an <li> element that displays the book's title -->
+                <li><%= book.title %></li>
+        <% }) %>
+    </ul>
+</body>
+</html>
