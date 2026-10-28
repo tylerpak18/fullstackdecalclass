@@ -1,0 +1,11 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background: #F8F5ED;
+  color: #16283F;
+  font-family: Inter, Arial, sans-serif;
+}
